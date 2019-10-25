@@ -20,7 +20,7 @@ from easymultilogging import CreateLogs as cl
 
 #3. Arguments for CreateLogs class
 ```
-#log_dest_dir# = Path to the directory where the log file is to be saved.
+**log_dest_dir** = *Path to the directory where the log file is to be saved.*
 **log_file_name** = *Name of the log file. (The log file can be accessed at : 'log_dest_dir/log_file_name'*
 **log_format** = *Can be defined while intiallizing the class object, however the default argument is '%(asctime)s %(name)-12s%(levelname)s:%(message)s'*
 **log_set_level** = *User defined logging set levels. Default value = 'DEBUG'. See the section #3.1 for the other valid arguments that can be passed on.*
