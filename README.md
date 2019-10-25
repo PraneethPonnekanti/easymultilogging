@@ -13,8 +13,8 @@ pip install easymultilogging
 ```
 
 #2. Usage
+CreateLogs is the class inside easymultilogging package that is to be imported.
 ```
-*#CreateLogs is the class inside easymultilogging package that is to be imported.*
 from easymultilogging import CreateLogs as cl
 ```
 
